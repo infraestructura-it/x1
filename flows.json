@@ -1,1 +1,55 @@
-[]
+[
+    {
+        "id": "e62fbed46081ee74",
+        "type": "tab",
+        "label": "Flujo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7583b64d54693809",
+        "type": "inject",
+        "z": "e62fbed46081ee74",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 230,
+        "y": 160,
+        "wires": [
+            [
+                "b36af95a44b66a5f"
+            ]
+        ]
+    },
+    {
+        "id": "b36af95a44b66a5f",
+        "type": "debug",
+        "z": "e62fbed46081ee74",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 240,
+        "wires": []
+    }
+]
