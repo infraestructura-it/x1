@@ -61,5 +61,75 @@
         "x": 240,
         "y": 300,
         "wires": []
+    },
+    {
+        "id": "bf6d9431a69c9500",
+        "type": "link in",
+        "z": "e62fbed46081ee74",
+        "name": "link in 1",
+        "links": [],
+        "x": 405,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6aac0906c6aea26c",
+        "type": "comment",
+        "z": "e62fbed46081ee74",
+        "name": "",
+        "info": "",
+        "x": 260,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "81737fa9ccd13bda",
+        "type": "switch",
+        "z": "e62fbed46081ee74",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 510,
+        "y": 480,
+        "wires": [
+            [
+                "88b5c48c95cd8f36"
+            ]
+        ]
+    },
+    {
+        "id": "88b5c48c95cd8f36",
+        "type": "switch",
+        "z": "e62fbed46081ee74",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 810,
+        "y": 420,
+        "wires": [
+            []
+        ]
     }
 ]
